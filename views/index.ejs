@@ -9,10 +9,10 @@
   <script src="js/dropzone.js" charset="utf-8"></script>
 </head>
 <body>
-  <form action="/" method="post" enctype="multipart/form-data">
-    <input type="file" name='file' placeholder="Select file"/>
-    <br/>
-    <button>Upload</button>
-</form>
+  <form action='/' class='dropzone'>
+    <div class="fallback">
+      <input type="file" name='file'>
+    </div>
+  </form>
 </body>
 </html>
